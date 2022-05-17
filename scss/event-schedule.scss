@@ -1,0 +1,78 @@
+.dento-event-schedule{
+
+    .event-organizer{
+        color: #989898;
+    }
+
+    .event-date{
+        top:10px;
+        left:25px;
+        background:$secondary;
+        border-radius:6px;
+        line-height:1.8;
+        width:50px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .event-price{
+        color: #989898;
+        font-size:14px;
+    }
+
+    .event-location{
+        color: #989898;
+        font-size:14px;
+    }
+
+
+    .event-card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .event-card:hover h5 a{
+        color: $secondary;
+    }
+
+    // .event-card:hover svg{
+    //     color: $secondary;
+    //     transition: 0.5s;
+    // }
+
+    .event-card:hover {
+        box-shadow: 0 8px 16px 0 rgba(112, 200, 203,0.4);
+    }
+
+    .card-header button{
+        color:$primary;
+        font-weight: 600;
+        font-size: 24px;
+        background-color: transparent;
+        display: inline-block;
+        width: 100%;
+        padding:0.75rem 1.25rem;
+    }
+
+    .schedule-info{
+        max-width: 150px;
+        text-align: center;
+    }
+
+    button:focus{
+        outline:0 !important;
+        box-shadow: none;
+    }
+
+    .card-header{
+        padding:0;
+        background-color: transparent;
+    }
+
+    svg{
+        font-size: 20px;
+    }
+}

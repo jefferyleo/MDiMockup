@@ -1,0 +1,27 @@
+.dento-event-details .time label {
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 30px;
+  min-width: 110px;
+}
+
+.dento-event-details .time span {
+  opacity: 0.7;
+  word-break: break-word;
+}
+
+.dento-event-details .event-content {
+  padding: 30px;
+}
+
+.dento-event-details .event-content ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.dento-event-details .event-desc {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=event-details.css.map */

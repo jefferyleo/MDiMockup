@@ -1,0 +1,63 @@
+.dento-btn {
+  position: relative;
+  z-index: 1;
+  min-width: 170px;
+  height: 46px;
+  line-height: 42px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #70c8cb !important;
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 2px solid #70c8cb;
+}
+
+@media only screen and (max-width: 767px) {
+  .dento-btn {
+    min-width: 120px;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .dento-btn {
+    min-width: 170px;
+    padding: 0 20px;
+  }
+}
+
+.dento-btn.active, .dento-btn:focus, .dento-btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  color: #f8c5d5 !important;
+  border: 2px solid #f8c5d5;
+}
+
+.dento-btn.btn-2:focus, .dento-btn.btn-2:hover {
+  background-color: #ffffff;
+  color: #f8c5d5;
+}
+
+.dento-btn.booking-btn {
+  color: #ffffff !important;
+  font-weight: 600;
+  min-width: 140px;
+  height: 40px;
+  line-height: 36px;
+  font-size: 12px;
+}
+
+.dento-btn.booking-btn:focus, .dento-btn.booking-btn:hover {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #f8c5d5 !important;
+}
+/*# sourceMappingURL=buttons.css.map */

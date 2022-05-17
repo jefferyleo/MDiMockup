@@ -1,0 +1,91 @@
+.login-form{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .card{
+        background-color: $primary-fade;
+
+        h3{
+            color: $login-text;
+            text-transform: uppercase;
+            margin: 15px 0px;
+        }
+
+        h5{
+          color: $login-text;
+        }
+
+        p{
+          color: $login-text;
+        }
+
+        button{
+            background-color: $secondary;
+            color: $white;
+        }
+
+        a {
+            color: $login-text;
+            cursor: pointer;
+        }
+        
+
+        ol > li{
+          list-style: auto;
+          list-style-position: inside;
+          color: $login-text;
+        }
+
+        .form-check-label{
+          color: $login-text;
+          font-weight: bold;
+        }
+    }
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+      background-color: #ffdddd;
+    }
+
+    /* Hide all steps by default: */
+    .tab {
+      display: none;
+    }
+
+    /* Make circles that indicate the steps of the form: */
+    .step {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbbbbb;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      opacity: 0.5;
+    }
+
+    /* Mark the active step: */
+    .step.active {
+      opacity: 1;
+    }
+
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+      background-color: #04AA6D;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #d3d3d3;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #d3d3d3;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #d3d3d3;
+      }
+}

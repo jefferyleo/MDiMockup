@@ -1,0 +1,140 @@
+.dento-event-details{
+    .time label{
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 30px;
+        min-width: 110px;
+    }
+
+    .time span{
+        opacity: 0.7;
+        word-break: break-word;
+    }
+
+    .event-content{
+        padding: 30px;
+
+        .event-social{
+            ul{
+                list-style-type: none;
+                display: inline-block;
+                padding: 0 0 0 15px;
+            }
+    
+            ul li{
+                display: inline-block;
+            }
+    
+            ul li a{
+                padding: 0px 5px;
+                opacity: 0.5;
+                color: #000;
+            }
+    
+            ul li a:hover{
+                color: $primary;
+                opacity: 1;
+            }
+        }
+    }
+
+    .event-desc{
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom:30px;
+        margin-bottom:30px;
+    }
+
+    .event-calendar-sync{
+        
+        span{
+            display: grid;
+        }
+
+        a{
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        a:hover{
+            color: $primary;
+        }
+    }
+
+    .owl-prev span, .owl-next span {
+        color: #FFF;
+    }
+    
+    .owl-prev span:hover, 
+    .owl-next span:hover {
+        color: $bg-gray;
+    }
+
+    .owl-theme .owl-dots .owl-dot span{
+        background: $primary;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span, 
+      .owl-theme .owl-dots .owl-dot:hover span {
+          background: $secondary;
+      }
+    
+    .owl-prev, .owl-next {
+        position: absolute;
+        top: 30%;
+    }
+
+    .owl-prev:hover, .owl-next:hover  {
+        background-color: #000;
+    }
+    
+    .owl-prev {
+        left: 7px;
+        display: flex;
+    background: #fff;
+    }
+    
+    .owl-next {
+        right: 7px;
+        display: flex;
+    background: #fff;
+    }
+
+    .owl-prev svg,
+.owl-next svg {
+    margin: auto
+}
+
+    // .owl-theme .owl-nav [class*=owl-]{
+    //     background:rgba(0,0,0,0.5);
+    //     border-radius: 20px;
+    // }
+
+    .owl-theme .owl-nav [class*=owl-] {
+        position: absolute;
+        top: 30%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .owl-nav div {
+        position: absolute;
+        top: 30%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .owl-theme .owl-nav .disabled {
+        cursor: pointer;
+    }
+
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: #000;
+        color: #FFF;
+        text-decoration: none;
+    }
+}
