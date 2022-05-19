@@ -282,6 +282,7 @@
   z-index: 1;
 
   li {
+    list-style: none;
     a {
       display: block;
       padding: 15px 0;
@@ -468,6 +469,10 @@
       background-color: #4b6cd0;
     }
 
+    &.whatsapp {
+      background-color: #43cc28;
+    }
+
     &.tweet {
       background-color: #49a7f3;
     }
@@ -478,6 +483,10 @@
 
     &.pinterest {
       background-color: #bd081c;
+    }
+
+    &.copy{
+      background-color: #8e8e8e;
     }
   }
 }

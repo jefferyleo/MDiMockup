@@ -1756,6 +1756,10 @@ ul li {
   z-index: 1;
 }
 
+.catagories-list li {
+  list-style: none;
+}
+
 .catagories-list li a {
   display: block;
   padding: 15px 0;
@@ -1954,6 +1958,10 @@ ul li {
   background-color: #4b6cd0;
 }
 
+.post-share-area a.whatsapp {
+  background-color: #43cc28;
+}
+
 .post-share-area a.tweet {
   background-color: #49a7f3;
 }
@@ -1964,6 +1972,10 @@ ul li {
 
 .post-share-area a.pinterest {
   background-color: #bd081c;
+}
+
+.post-share-area a.copy {
+  background-color: #8e8e8e;
 }
 
 .search-widget-area form {
