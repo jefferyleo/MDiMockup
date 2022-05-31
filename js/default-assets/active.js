@@ -36,7 +36,7 @@
       dots: true,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut',
-      responsiveClass:true,
+      responsiveClass: true,
     })
     welcomeSlider.on('translate.owl.carousel', function () {
       var layer = $("[data-animation]");
@@ -76,46 +76,46 @@
       mouseDrag: true,
       autoplay: true,
       responsiveClass: true,
-  });
+    });
 
-  $(".gallery-items").owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: false,
-    items: 2,
-    dots: true,
-    //animateOut: 'fadeOut',
-    //animateIn: 'fadeIn',
-    navText: ['<i class=""></i>', '<i class=""></i>'],
-    smartSpeed: 1200,
-    autoplayTimeout: 5000,
-    //autoplayHoverPause: true,
-    mouseDrag: true,
-    autoplay: true,
-    responsiveClass: true,
-});
+    $(".gallery-items").owlCarousel({
+      loop: true,
+      margin: 15,
+      nav: false,
+      items: 2,
+      dots: true,
+      //animateOut: 'fadeOut',
+      //animateIn: 'fadeIn',
+      navText: ['<i class=""></i>', '<i class=""></i>'],
+      smartSpeed: 1200,
+      autoplayTimeout: 5000,
+      //autoplayHoverPause: true,
+      mouseDrag: true,
+      autoplay: true,
+      responsiveClass: true,
+    });
 
-$(".event-images").owlCarousel({
-    loop: false,
-    margin: 15,
-    nav: true,
-    items: 3,
-    dots: true,
-    navText: ['<span class="fa-solid fa-angle-left"></span>','<span class="fa-solid fa-angle-right"></span>'],
-    smartSpeed: 1200,
-    autoplayTimeout: 5000,
-    //autoplayHoverPause: true,
-    mouseDrag: true,
-    autoplay: false,
-    responsiveClass: true,
-});
+    $(".event-images").owlCarousel({
+      loop: false,
+      margin: 15,
+      nav: true,
+      items: 3,
+      dots: true,
+      navText: ['<span class="fa-solid fa-angle-left"></span>', '<span class="fa-solid fa-angle-right"></span>'],
+      smartSpeed: 1200,
+      autoplayTimeout: 5000,
+      //autoplayHoverPause: true,
+      mouseDrag: true,
+      autoplay: false,
+      responsiveClass: true,
+    });
 
     var ourPartners = $('.hero-items');
     ourPartners.owlCarousel({
       loop: true,
-      margin: 0,
+      margin: 20,
       nav: false,
-      items: 3,
+      items: 4,
       dots: true,
       //animateOut: 'fadeOut',
       //animateIn: 'fadeIn',
@@ -125,6 +125,23 @@ $(".event-images").owlCarousel({
       autoplayHoverPause: true,
       mouseDrag: true,
       autoplay: true,
+      responsive: {
+        //breakpoint from 0 and up
+        0: {
+          items: 2,
+        },
+        // add as many breakpoints as desired , breakpoint from 480 up
+        768: {
+          items: 2,
+        },
+        // breakpoint from 768 up
+        992: {
+          items: 3,
+        },
+        1200: {
+          items: 4,
+        },
+      }
     });
   }
 

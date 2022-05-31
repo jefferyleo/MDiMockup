@@ -1,3 +1,17 @@
+/* Source mixin */
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Usage */
+.custom-container {
+  @include make-container(80px);
+}
+
 .header-area {
   position: relative;
   z-index: 599;
@@ -46,6 +60,10 @@
         }
       }
     }
+
+    svg{
+      color: $pink-icon;
+    }
   }
 
   .top-header-social-info {
@@ -87,7 +105,7 @@
       a {
         padding: 0 15px;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 12px;
         text-transform: uppercase;
 
         &:focus,

@@ -36,13 +36,13 @@
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  color: #f8c5d5 !important;
-  border: 2px solid #f8c5d5;
+  color: #ff91af !important;
+  border: 2px solid #ff91af;
 }
 
 .dento-btn.btn-2:focus, .dento-btn.btn-2:hover {
   background-color: #ffffff;
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .dento-btn.booking-btn {
@@ -58,6 +58,6 @@
   font-size: 12px;
   font-weight: 600;
   background-color: #ffffff;
-  color: #f8c5d5 !important;
+  color: #ff91af !important;
 }
 /*# sourceMappingURL=buttons.css.map */

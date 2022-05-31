@@ -199,7 +199,7 @@ ul li {
   top: 0;
   width: 30px;
   height: 30px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   text-align: center;
   right: 0;
   padding-right: 0;
@@ -370,7 +370,7 @@ ul li {
   border: 3px;
   border-style: solid;
   border-color: transparent;
-  border-top-color: #f8c5d5;
+  border-top-color: #ff91af;
   -webkit-animation: dentorotate 2400ms linear infinite;
   animation: dentorotate 2400ms linear infinite;
   z-index: 999;
@@ -387,7 +387,7 @@ ul li {
   border: 3px;
   border-style: solid;
   border-color: transparent;
-  border-top-color: #f8c5d5;
+  border-top-color: #ff91af;
   -webkit-animation: dentorotate 2700ms linear infinite;
   animation: dentorotate 2700ms linear infinite;
 }
@@ -403,7 +403,7 @@ ul li {
   border: 3px;
   border-style: solid;
   border-color: transparent;
-  border-top-color: #f8c5d5;
+  border-top-color: #ff91af;
   -webkit-animation: dentorotate 1800ms linear infinite;
   animation: dentorotate 1800ms linear infinite;
 }
@@ -440,6 +440,7 @@ ul li {
   font-size: 36px;
   text-transform: capitalize;
   margin-bottom: 20px;
+  color: #f78fa7;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -465,7 +466,7 @@ ul li {
 .section-heading .line {
   width: 70px;
   height: 4px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
 }
 
 .section-heading.text-center .line {
@@ -482,7 +483,7 @@ ul li {
   line-height: 42px;
   right: 0;
   width: 40px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   color: #ffffff;
   text-align: center;
   height: 40px;
@@ -533,13 +534,13 @@ ul li {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  color: #f8c5d5 !important;
-  border: 2px solid #f8c5d5;
+  color: #ff91af !important;
+  border: 2px solid #ff91af;
 }
 
 .dento-btn.btn-2:focus, .dento-btn.btn-2:hover {
   background-color: #ffffff;
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .dento-btn.booking-btn {
@@ -555,7 +556,17 @@ ul li {
   font-size: 12px;
   font-weight: 600;
   background-color: #ffffff;
-  color: #f8c5d5 !important;
+  color: #ff91af !important;
+}
+
+/* Source mixin */
+/* Usage */
+.custom-container {
+  width: 100%;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-area {
@@ -582,17 +593,17 @@ ul li {
   position: relative;
   z-index: 1;
   height: 40px;
-  background-color: #f8c5d5;
+  background-color: #FDDEE5;
 }
 
 .top-header-area .top-header-content a {
   display: inline-block;
   font-size: 12px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .top-header-area .top-header-content a i {
-  color: #ffffff;
+  color: #000000;
   margin-right: 5px;
 }
 
@@ -612,8 +623,12 @@ ul li {
   }
 }
 
+.top-header-area .top-header-content svg {
+  color: #ff91af;
+}
+
 .top-header-area .top-header-social-info a {
-  color: #ffffff;
+  color: #000000;
   display: inline-block;
   font-size: 14px;
   margin-left: 10px;
@@ -654,12 +669,12 @@ ul li {
 .classy-nav-container .classy-navbar .classynav ul li a {
   padding: 0 15px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
 .classy-nav-container .classy-navbar .classynav ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -914,12 +929,12 @@ ul li {
   font-size: 14px;
   text-align: center;
   line-height: 40px;
-  color: #f8c5d5;
+  color: #ff91af;
   margin: 0 7px;
 }
 
 .single-dentist-area .dentist-content .dentist-social-info a:focus, .single-dentist-area .dentist-content .dentist-social-info a:hover {
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   color: #ffffff;
 }
 
@@ -997,7 +1012,7 @@ ul li {
 
 .dento-price-table table thead tr > td,
 .dento-price-table table thead tr > th {
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   color: #ffffff;
 }
 
@@ -1045,7 +1060,7 @@ ul li {
 }
 
 .single-service:focus h6, .single-service:hover h6 {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-service--area {
@@ -1103,7 +1118,7 @@ ul li {
   width: 60px;
   height: 60px;
   color: #ffffff;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -1168,7 +1183,7 @@ ul li {
 
 .single-cta i {
   font-size: 50px;
-  color: #f8c5d5;
+  color: #ff91af;
   margin-bottom: 15px;
   display: block;
 }
@@ -1271,7 +1286,7 @@ ul li {
   padding: 20px;
   position: relative;
   z-index: 1;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1338,7 +1353,7 @@ ul li {
 .breadcumb--con .breadcrumb .breadcrumb-item > a:hover,
 .breadcumb--con .breadcrumb .breadcrumb-item.active:focus,
 .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .breadcumb--con .breadcrumb .breadcrumb-item.active {
@@ -1368,7 +1383,7 @@ ul li {
 .small-breadcumb-area {
   position: relative;
   z-index: 1;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1466,7 +1481,7 @@ ul li {
 }
 
 .single-blog-item .post-meta a i {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-blog-item .post-meta a:last-child {
@@ -1474,7 +1489,7 @@ ul li {
 }
 
 .single-blog-item .post-meta a:focus, .single-blog-item .post-meta a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-blog-item .blog-tag {
@@ -1503,7 +1518,7 @@ ul li {
 }
 
 .single-blog-item .blog-content .post-title:focus, .single-blog-item .blog-content .post-title:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1523,7 +1538,7 @@ ul li {
 }
 
 .single-blog-item .blog-content .post-meta a i {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-blog-item .blog-content .post-meta a:last-child {
@@ -1531,7 +1546,7 @@ ul li {
 }
 
 .single-blog-item .blog-content .post-meta a:focus, .single-blog-item .blog-content .post-meta a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-blog-item.style-2 {
@@ -1578,14 +1593,14 @@ ul li {
 }
 
 .dento-pagination .pagination .page-item .page-link:focus, .dento-pagination .pagination .page-item .page-link:hover {
-  background-color: #f8c5d5;
-  border-color: #f8c5d5;
+  background-color: #ff91af;
+  border-color: #ff91af;
   color: #ffffff;
 }
 
 .dento-pagination .pagination .page-item.active .page-link {
-  background-color: #f8c5d5;
-  border-color: #f8c5d5;
+  background-color: #ff91af;
+  border-color: #ff91af;
   color: #ffffff;
 }
 
@@ -1665,7 +1680,7 @@ ul li {
 }
 
 .comment_area .comment-content .comment-meta .post-author:focus, .comment_area .comment-content .comment-meta .post-author:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .comment_area .comment-content .comment-meta p {
@@ -1696,7 +1711,7 @@ ul li {
 }
 
 .comment_area .comment-content .comment-meta .comment-reply:focus, .comment_area .comment-content .comment-meta .comment-reply:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .comment_area .children {
@@ -1734,7 +1749,7 @@ ul li {
 .search-widget form .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #f8c5d5;
+  border-color: #ff91af;
 }
 
 .search-widget form button {
@@ -1776,7 +1791,7 @@ ul li {
 }
 
 .catagories-list li a:focus, .catagories-list li a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .catagories-list li:last-child a {
@@ -1814,7 +1829,7 @@ ul li {
 }
 
 .single-news-area .blog-content .post-title:focus, .single-news-area .blog-content .post-title:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-news-area .blog-content .post-date {
@@ -1858,7 +1873,7 @@ ul li {
 }
 
 .blog-details-area .post-meta a i {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .blog-details-area .post-meta a:last-child {
@@ -1866,7 +1881,7 @@ ul li {
 }
 
 .blog-details-area .post-meta a:focus, .blog-details-area .post-meta a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .blog-details-area p {
@@ -1915,7 +1930,7 @@ ul li {
 
 .dento-blockquote .text h6 span {
   font-size: 12px;
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1929,7 +1944,7 @@ ul li {
   width: 120px;
   height: 46px;
   border-radius: 3px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   line-height: 46px;
   color: #ffffff;
   margin-right: 10px;
@@ -2061,7 +2076,12 @@ ul li {
   position: relative;
   z-index: 1;
   padding-top: 100px;
-  background-color: #f5f5f5;
+  background-color: #FDDEE5;
+}
+
+.copyright-area {
+  background-color: #FDDEE5;
+  border-top: 1px solid #333333;
 }
 
 .single-footer-widget {
@@ -2094,7 +2114,7 @@ ul li {
 .single-footer-widget .footer-contact p i {
   display: inline-block;
   margin-right: 5px;
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-footer-widget .footer-contact p:last-child {
@@ -2150,7 +2170,7 @@ ul li {
 }
 
 .single-footer-widget .quick-links li a:focus, .single-footer-widget .quick-links li a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .single-footer-widget .quick-links li:last-child a {
@@ -2177,7 +2197,7 @@ ul li {
 .single-footer-widget .footer-newsletter-form button {
   width: auto;
   padding: 0 15px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   color: #ffffff;
   border: none;
   border-radius: 0 2px 2px 0;
@@ -2212,17 +2232,17 @@ ul li {
 
 .copywrite-content p {
   font-size: 12px;
-  color: #ffffff;
+  color: #000;
   margin-bottom: 0;
 }
 
 .copywrite-content p span {
   font-weight: 500;
-  color: #ffffff;
+  color: #000;
 }
 
 .copywrite-content p a {
-  color: #ffffff;
+  color: #000;
 }
 
 .dento-contact-area {
@@ -2253,7 +2273,7 @@ ul li {
   position: relative;
   z-index: 1;
   padding: 30px 50px;
-  background-color: #f8c5d5;
+  background-color: #ff91af;
   border-radius: 3px;
 }
 
@@ -2287,7 +2307,7 @@ ul li {
 .contact-form .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #f8c5d5;
+  border-color: #ff91af;
 }
 
 .contact-form textarea.form-control {
@@ -2295,8 +2315,12 @@ ul li {
   padding: 15px;
 }
 
+.pregnancy-101 {
+  background-color: #FEF6F8;
+}
+
 .pregnancy-tool {
-  background-color: #fafafa;
+  background-color: #FEF6F8;
 }
 
 .pregnancy-tool h5 {
@@ -2304,12 +2328,33 @@ ul li {
   margin-top: 15px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pregnancy-tool h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pregnancy-tool h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pregnancy-tool h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
 .pregnancy-tool h5:hover {
-  color: #f8c5d5;
+  color: #ff91af;
+  cursor: default;
 }
 
 .pregnancy-tool img:hover + h5 {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .product-review .flip-card {
@@ -2341,7 +2386,8 @@ ul li {
           transform: rotateX(180deg);
 }
 
-.product-review .flip-card-front, .product-review .flip-card-back {
+.product-review .flip-card-front,
+.product-review .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2351,7 +2397,7 @@ ul li {
 }
 
 .product-review .product-review-card:nth-child(odd) .flip-card-front {
-  background-color: #f8c5d5;
+  background-color: #f78fa7;
   color: black;
 }
 
@@ -2389,7 +2435,7 @@ ul li {
 }
 
 .product-review .product-review-card:nth-child(even) .flip-card-back {
-  background-color: #f8c5d5;
+  background-color: #f78fa7;
   color: white;
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
@@ -2406,7 +2452,7 @@ ul li {
 }
 
 .parenthood-event {
-  background-color: #fafafa;
+  background-color: #FEF6F8;
 }
 
 .login-form {
@@ -2422,7 +2468,7 @@ ul li {
 }
 
 .login-form .card {
-  background-color: #fdf4f7;
+  background-color: #FEF6F8;
 }
 
 .login-form .card h3 {
@@ -2574,7 +2620,7 @@ ul li {
 }
 
 .dento-event-schedule .card-header button {
-  color: #f8c5d5;
+  color: #ff91af;
   font-weight: 600;
   font-size: 24px;
   background-color: transparent;
@@ -2636,7 +2682,7 @@ ul li {
 }
 
 .dento-event-details .event-content .event-social ul li a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
   opacity: 1;
 }
 
@@ -2658,7 +2704,7 @@ ul li {
 }
 
 .dento-event-details .event-calendar-sync a:hover {
-  color: #f8c5d5;
+  color: #ff91af;
 }
 
 .dento-event-details .owl-prev span, .dento-event-details .owl-next span {
@@ -2671,7 +2717,7 @@ ul li {
 }
 
 .dento-event-details .owl-theme .owl-dots .owl-dot span {
-  background: #f8c5d5;
+  background: #ff91af;
 }
 
 .dento-event-details .owl-theme .owl-dots .owl-dot.active span,
